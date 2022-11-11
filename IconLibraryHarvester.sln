@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB17BE91-C3ED-4A1C-934B-F55EA03AD325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTools", "src\ImageTools\ImageTools.csproj", "{31521E40-B1A0-4BE5-86EE-5F68B3A63381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconLibraryHarvester", "src\IconLibraryHarvester\IconLibraryHarvester.csproj", "{3967CAE4-132E-46F4-9DFD-464690A06234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31521E40-B1A0-4BE5-86EE-5F68B3A63381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31521E40-B1A0-4BE5-86EE-5F68B3A63381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31521E40-B1A0-4BE5-86EE-5F68B3A63381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31521E40-B1A0-4BE5-86EE-5F68B3A63381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3967CAE4-132E-46F4-9DFD-464690A06234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3967CAE4-132E-46F4-9DFD-464690A06234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3967CAE4-132E-46F4-9DFD-464690A06234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3967CAE4-132E-46F4-9DFD-464690A06234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31521E40-B1A0-4BE5-86EE-5F68B3A63381} = {BB17BE91-C3ED-4A1C-934B-F55EA03AD325}
+		{3967CAE4-132E-46F4-9DFD-464690A06234} = {BB17BE91-C3ED-4A1C-934B-F55EA03AD325}
+	EndGlobalSection
+EndGlobal
